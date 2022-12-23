@@ -1,7 +1,11 @@
+import H6 from "../../typograph/H6"
+
+
+
 function Home() {
     return (
         <div>
-            oi
+           <H6>oiiiiii</H6>
             
         </div>
     )

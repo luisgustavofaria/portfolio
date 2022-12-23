@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-
+import H6 from "../../typograph/H6"
 
 const StyledUl = styled.ul`
     display: flex;
@@ -29,31 +29,26 @@ const StyledUl = styled.ul`
     a:hover:after {
         width: 100%;
     }
-
 `
 
 const StyledLi = styled.li`
     font-size: 20px;
     padding: 10px;
-
-    
-  
-   
     
 
-   
-
-    
+    :hover {
+        cursor: pointer;
+    }    
 `
 
 
 function Navbar() {
     return (    
         <StyledUl>
-            <StyledLi><a>Home</a></StyledLi>       
-            <StyledLi><a>About</a></StyledLi>                        
-            <StyledLi><a>Project</a></StyledLi>                        
-            <StyledLi><a>Contact</a></StyledLi>                        
+            <StyledLi><a><H6>Home</H6></a></StyledLi>       
+            <StyledLi><a><H6>About</H6></a></StyledLi>                        
+            <StyledLi><a><H6>Project</H6></a></StyledLi>                        
+            <StyledLi><a><H6>Contact</H6></a></StyledLi>                        
         </StyledUl>     
     )
 }

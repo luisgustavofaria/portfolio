@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 import H6 from "../../typograph/H6"
-import ImageText from "../image/Image"
+import ImageText from "../imageText/ImageText"
 
 
 

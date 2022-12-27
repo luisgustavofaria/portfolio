@@ -18,7 +18,7 @@ const StyledUl = styled.ul`
     a:after {
     content: '';
     position: absolute;
-    background-color: #000000;
+    background-color: #00d8c6;
     height: 2px;
     width: 0;
     left: 0;

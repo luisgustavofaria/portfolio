@@ -6,10 +6,11 @@ const StyledUl = styled.ul`
     display: flex;
     justify-content: center;
     padding: 20px;
-    height: 60px;  
+    height: 100px;  
     align-items: center;
     gap: 20px;
     list-style: none;
+    border-bottom: solid 1px #00d8c6;
    
     a {
         position: relative;
@@ -38,17 +39,24 @@ const StyledLi = styled.li`
 
     :hover {
         cursor: pointer;
-    }    
+    }  
+
+    h3 {
+        color: ${props => props.theme.primary};
+        font-size: 22px;
+    }
+    
+    
 `
 
 
 function Navbar() {
     return (    
         <StyledUl>
-            <StyledLi><a><H6>Home</H6></a></StyledLi>       
-            <StyledLi><a><H6>About</H6></a></StyledLi>                        
-            <StyledLi><a><H6>Project</H6></a></StyledLi>                        
-            <StyledLi><a><H6>Contact</H6></a></StyledLi>                        
+            <StyledLi><a><h3>Home</h3></a></StyledLi>       
+            <StyledLi><a><h3>About</h3></a></StyledLi>                        
+            <StyledLi><a><h3>Project</h3></a></StyledLi>                        
+            <StyledLi><a><h3>Contact</h3></a></StyledLi>                        
         </StyledUl>     
     )
 }

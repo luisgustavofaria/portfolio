@@ -13,6 +13,7 @@ const Container = styled.div`
 `
 
 const ContainerDiv = styled.div`  
+    margin-top: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,8 +27,8 @@ const StyledImage = styled.div`
     background-repeat: no-repeat;
     background-size: contain;
     border-radius: 50%;   
-    min-width: 300px;
-    min-height: 300px;   
+    min-width: 400px;
+    min-height: 400px;   
 `
 
 const StyledButton = styled.div`

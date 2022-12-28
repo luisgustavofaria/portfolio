@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 
-const H3 = styled.h3`
+const H3 = styled.h1`
   font-size: 24px;
   font-weight: bold;
-  line-height: 77px;
+  
   color: ${props => props.theme.primary};
 `
 

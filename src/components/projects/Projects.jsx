@@ -8,6 +8,7 @@ import IconImages from "../iconImages/IconImages"
 
 const MainContainer = styled.div`
     background-color: ${(props) => props.theme.primary};
+    padding-bottom: 50px;
 `
 
 const Title = styled.div`
@@ -18,7 +19,7 @@ const Title = styled.div`
     background-color: ${(props) => props.theme.primary};
     
     H1{
-        color: black;
+        color: #222222;
         background-color: ${(props) => props.theme.primary};
     }
 `
@@ -46,7 +47,8 @@ const Card = styled.div`
     }
     
     :nth-child(1):hover {
-    transform: scale(1.1);
+        transition: 0.2s ease-in-out;
+        transform: scale(1.1);
     }
     
     :nth-child(2){

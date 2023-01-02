@@ -4,6 +4,7 @@ import Home from "../src/components/home/Home"
 import AboutMe from "../src/components/aboutMe/AboutMe"
 import Projects from "../src/components/projects/Projects"
 import Formation from "../src/components/formation/Formation"
+import Contact from "../src/components/contact/Contact"
 
 
 function HomePage () {
@@ -15,6 +16,7 @@ function HomePage () {
       <AboutMe />
       <Projects />
       <Formation />
+      <Contact />
     </Container>
   )
 }

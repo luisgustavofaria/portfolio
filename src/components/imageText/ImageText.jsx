@@ -20,6 +20,7 @@ const ContainerDiv = styled.div`
     align-items: center;
     min-width: 50%; 
     text-align: center;   
+    gap: 25px;
 `
 
 const StyledImage = styled.div`
@@ -52,25 +53,24 @@ function ImageText({image}) {
             </ContainerDiv>
             <ContainerDiv>
                 <H1>Olá! Eu sou <br></br>Luis Gustavo Faria</H1>
-                <H3>Fullstack Deb Developer</H3>  
-            <StyledButton>
-                <Button>Projetos</Button>      
-                <Button>Formação</Button>      
-                <Button>Contato</Button> 
-            </StyledButton>
-            <StyledIconContainer>
-            <IconImages imageName="JsIcon" type="svg" />
-            <IconImages imageName="HtmlIcon" type="svg" />
-            <IconImages imageName="CssIcon" type="svg" />
-            <IconImages imageName="GitHubIcon" type="svg" />
-          </StyledIconContainer>
-          <StyledIconContainer>
-            <IconImages imageName="ReactIcon" type="svg" />
-            <IconImages imageName="NextIcon" type="svg" />
-            <IconImages imageName="NodeIcon" type="svg" />
-            <IconImages imageName="MongoDBIcon" type="svg" />
-          </StyledIconContainer>
-                 
+                <H3>Fullstack Web Developer</H3>  
+                <StyledButton>
+                    <Button>Projetos</Button>      
+                    <Button>Formação</Button>      
+                    <Button>Contato</Button> 
+                </StyledButton>
+                <StyledIconContainer>
+                    <IconImages imageName="JsIcon" type="svg" />
+                    <IconImages imageName="HtmlIcon" type="svg" />
+                    <IconImages imageName="CssIcon" type="svg" />
+                    <IconImages imageName="GitHubIcon" type="svg" />
+                </StyledIconContainer>
+                <StyledIconContainer>
+                    <IconImages imageName="ReactIcon" type="svg" />
+                    <IconImages imageName="NextIcon" type="svg" />
+                    <IconImages imageName="NodeIcon" type="svg" />
+                    <IconImages imageName="MongoDBIcon" type="svg" />
+                </StyledIconContainer>     
             </ContainerDiv>
         </Container>
        

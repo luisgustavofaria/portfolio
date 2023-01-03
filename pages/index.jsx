@@ -3,7 +3,7 @@ import Navbar from "../src/components/navbar/Navbar"
 import Home from "../src/components/home/Home"
 import AboutMe from "../src/components/aboutMe/AboutMe"
 import Projects from "../src/components/projects/Projects"
-import Formation from "../src/components/formation/Formation"
+import Skills from "../src/components/skills/Skills"
 import Contact from "../src/components/contact/Contact"
 
 
@@ -15,7 +15,7 @@ function HomePage () {
       <Home />
       <AboutMe />
       <Projects />
-      <Formation />
+      <Skills />
       <Contact />
     </Container>
   )

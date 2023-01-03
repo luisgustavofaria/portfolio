@@ -56,7 +56,7 @@ function ImageText({image}) {
                 <H3>Fullstack Web Developer</H3>  
                 <StyledButton>
                     <Button>Projetos</Button>      
-                    <Button>Formação</Button>      
+                    <Button>Skills</Button>      
                     <Button>Contato</Button> 
                 </StyledButton>
                 <StyledIconContainer>

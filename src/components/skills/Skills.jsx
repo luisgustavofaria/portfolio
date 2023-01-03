@@ -37,11 +37,11 @@ const Container = styled.div`
 
 
 
-function Formation() {
+function Skills() {
     return (
         <MainContainer>
             <Title>
-                <H1>Formation</H1>
+                <H1>Skills</H1>
             </Title>
             <Container>
                 <H3>Certificados em: <br></br>
@@ -63,4 +63,4 @@ function Formation() {
     )
 }
 
-export default Formation
+export default Skills

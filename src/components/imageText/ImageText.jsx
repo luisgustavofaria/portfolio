@@ -10,6 +10,9 @@ import IconImages from "../iconImages/IconImages"
 const Container = styled.div`
     display: flex;
     
+    @media (max-width: 800px) {
+        flex-direction: column;
+    }  
 `
 
 const ContainerDiv = styled.div`  
@@ -20,7 +23,14 @@ const ContainerDiv = styled.div`
     align-items: center;
     min-width: 50%; 
     text-align: center;   
-    gap: 25px;
+    gap: 30px;
+
+    :nth-child(2){
+        @media (max-width: 800px) {
+           margin-top: 50px;
+        }  
+    }
+    
 `
 
 const StyledImage = styled.div`
@@ -29,12 +39,22 @@ const StyledImage = styled.div`
     background-size: contain;
     border-radius: 50%;   
     min-width: 400px;
-    min-height: 400px;   
+    min-height: 400px;  
+    
+    @media (max-width: 600px){
+        min-width: 300px;
+        min-height: 300px; 
+    }
 `
 
 const StyledButton = styled.div`
     display: flex;
     gap: 15px;
+
+    @media (max-width: 380px){
+        gap: 10px;
+        
+    }
 `
 
 const StyledIconContainer = styled.div` 

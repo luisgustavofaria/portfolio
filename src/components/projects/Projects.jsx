@@ -9,6 +9,7 @@ import IconImages from "../iconImages/IconImages"
 const MainContainer = styled.div`
     background-color: ${(props) => props.theme.primary};
     padding-bottom: 50px;
+
 `
 
 const Title = styled.div`
@@ -31,6 +32,11 @@ const Container = styled.div`
     gap: 50px;
     justify-content: center;
     
+    @media (max-width: 1000px) {
+        flex-direction: column;
+        align-items: center;
+        
+    }  
     
 `
 
@@ -39,6 +45,9 @@ const Card = styled.div`
     display: flex;
     justify-content: center;
       
+    @media (max-width: 1000px) {
+        width: 80%;
+    }  
     
     
 

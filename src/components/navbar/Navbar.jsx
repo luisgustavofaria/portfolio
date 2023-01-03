@@ -32,6 +32,12 @@ const StyledUl = styled.ul`
     a:hover:after {
         width: 100%;
     }
+
+    @media (max-width: 380px){
+        padding: 0px;
+        gap: 10px;
+    }
+   
 `
 
 const StyledLi = styled.li`
@@ -46,6 +52,18 @@ const StyledLi = styled.li`
     h3 {
         color: ${props => props.theme.primary};
         font-size: 22px;
+
+        @media (max-width: 450px){
+        font-size: 18px;
+        }
+
+        @media (max-width: 380px){
+            padding: 0;
+        }
+    }
+    
+    @media (max-width: 600px){
+        padding: 0px;
     }
     
     
@@ -56,7 +74,7 @@ function Navbar() {
     return (    
         <StyledUl>
             <StyledLi><a><h3>Home</h3></a></StyledLi>       
-            <StyledLi><a><h3>About Me</h3></a></StyledLi>                        
+            <StyledLi><a><h3>About</h3></a></StyledLi>                        
             <StyledLi><a><h3>Project</h3></a></StyledLi>                        
             <StyledLi><a><h3>Skills</h3></a></StyledLi>                        
             <StyledLi><a><h3>Contact</h3></a></StyledLi>                        

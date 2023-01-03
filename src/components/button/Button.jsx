@@ -17,6 +17,7 @@ const StyledButton = styled.div`
     transform: scale(1.1);
     background-color: #39f9e9;
   }   
+
 ` 
 
 function Button({children}) {

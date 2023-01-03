@@ -33,6 +33,10 @@ const Container = styled.div`
         transition: 0.2s ease-in-out;
         transform: scale(1.1);
     }
+
+    @media (max-width: 800px) {
+        width: 95%;
+    }  
 `
 
 

@@ -6,59 +6,23 @@ import H3 from "../../typograph/H3"
 import H6 from "../../typograph/H6"
 import IconImages from "../iconImages/IconImages"
 
-/*
-const ContainerAboutMe = styled.div` 
-    text-align: center;
-    margin-top: 100px;
-`
-
-const Container = styled.div`
-    display: flex;
-    height: 650px;
-`
-
-const StyledDiv = styled.div`
-    width: 50%;
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-    position: relative;
-
-    :nth-child(1){
-        overflow: hidden;
-    }
-
-    :nth-child(2) h3 {
-        color:  ${props => props.theme.primary};
-        padding: 30px;
-        text-align: justify;
-        border-top: solid 1px #00d8c6;
-        border-right: solid 4px #00d8c6;
-        border-bottom: solid 8px #00d8c6;
-        border-radius: 0px 10px 10px 0;
-        font-size: 20px;
-        
-    }
-`
-
-const StyledImg = styled.div`
-    img {
-        width: 100%;
-        
-        
-    }
-`
-*/
-
 const Title = styled.div` 
     text-align: center;
     margin-top: 100px;
     margin-bottom: 70px;
+
+    @media (max-width: 800px) {
+        margin-bottom: 20px;
+    }
 `
 
 const MainContainer = styled.div`
     display: flex;
     align-items: center;
+
+    @media (max-width: 800px) {
+        justify-content: center;
+    }  
     
 `
 
@@ -70,6 +34,13 @@ const StyledImg = styled.div`
     img{
         min-width: 100%;
 
+        @media (max-width: 1000px) {
+            min-width: 900px;
+        }   
+    }
+
+    @media (max-width: 800px) {
+          display: none;
     }
 `
 
@@ -83,13 +54,33 @@ const StyledText = styled.div`
         color:  ${props => props.theme.primary};
         padding: 30px;
         text-align: justify;
-        border-top: solid 1px #00d8c6;
-        border-right: solid 4px #00d8c6;
-        border-bottom: solid 8px #00d8c6;
+        border-top: solid 2px #00d8c6;
+        border-right: solid 5px #00d8c6;
+        border-bottom: solid 10px #00d8c6;
         border-radius: 0px 10px 10px 0;
         font-size: 20px;
-    }
+
+        @media (max-width: 1000px) {
+            min-width: 400px;
+        }
+
+        @media (max-width: 400px) {
+            min-width: 100%;
+            
+        }
+
+    } 
     
+    @media (max-width: 800px) {
+        min-width: 100%;
+        
+    }  
+
+    @media (max-width: 400px) {
+            min-width: 100%;
+            padding: 0;
+            padding-bottom: 50px;
+        }
 `
 
 

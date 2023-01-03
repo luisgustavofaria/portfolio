@@ -3,6 +3,8 @@ import styled from "styled-components"
 import H6 from "../../typograph/H6"
 
 const StyledUl = styled.ul`
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: center;
     padding: 20px;

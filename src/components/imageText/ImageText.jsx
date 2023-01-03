@@ -13,7 +13,7 @@ const Container = styled.div`
 `
 
 const ContainerDiv = styled.div`  
-    margin-top: 80px;
+    margin-top: 180px;
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -8,7 +8,7 @@ const StyledUl = styled.ul`
     display: flex;
     justify-content: center;
     padding: 20px;
-    height: 100px;  
+    height: 80px;  
     align-items: center;
     gap: 20px;
     list-style: none;

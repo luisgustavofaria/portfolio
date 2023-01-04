@@ -73,7 +73,7 @@ function ImageText({image}) {
                 <StyledImage image={image}/>             
             </ContainerDiv>
             <ContainerDiv>
-                <H1>Olá! Eu sou <br></br>Luis Gustavo Faria</H1>
+                <H1>Olá, eu sou <br></br>Luis Gustavo Faria</H1>
                 <H3>Fullstack Web Developer</H3>  
                 <StyledButton>
                 <Link to="projects" smooth={true} offset={-20} duration={800}>

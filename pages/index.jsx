@@ -13,12 +13,22 @@ function HomePage () {
   return (
     <>
       <Navbar />
-      <Home />
-      <AboutMe />
-      <Projects />
-      <Skills />
-      <Contact />
-      <Footer />
+      <div id="home">
+        <Home />
+      </div>
+      <div id="about">
+        <AboutMe />
+      </div>
+      <div id="projects">
+        <Projects id="projects"/>
+      </div>
+      <div id="skills">
+        <Skills />
+      </div>
+      <div id="contact">
+        <Contact />
+      </div>
+        <Footer />
     </>
   )
 }

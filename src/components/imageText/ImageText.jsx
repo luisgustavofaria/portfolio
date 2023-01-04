@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import { Link, animateScroll as scroll } from "react-scroll";
 
 import H1 from "../../typograph/H1"
 import H2 from "../../typograph/H2"
@@ -75,9 +76,17 @@ function ImageText({image}) {
                 <H1>Olá! Eu sou <br></br>Luis Gustavo Faria</H1>
                 <H3>Fullstack Web Developer</H3>  
                 <StyledButton>
-                    <Button>Projetos</Button>      
-                    <Button>Skills</Button>      
+                <Link to="projects" smooth={true} offset={-20} duration={800}>
+                    <Button>Projetos</Button>  
+                </Link> 
+                <Link to="skills" smooth={true} offset={0} duration={800}>
+                    <Button>Skills</Button> 
+                </Link>   
+                <Link to="contact" smooth={true} offset={0} duration={800}>
                     <Button>Contato</Button> 
+                </Link>   
+                         
+                    
                 </StyledButton>
                 <StyledIconContainer>
                     <IconImages imageName="JsIcon" type="svg" />

@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import { Link, animateScroll as scroll } from "react-scroll";
 
 import H6 from "../../typograph/H6"
 
@@ -73,11 +74,31 @@ const StyledLi = styled.li`
 function Navbar() {
     return (    
         <StyledUl>
-            <StyledLi><a><h3>Home</h3></a></StyledLi>       
-            <StyledLi><a><h3>About</h3></a></StyledLi>                        
-            <StyledLi><a><h3>Project</h3></a></StyledLi>                        
-            <StyledLi><a><h3>Skills</h3></a></StyledLi>                        
-            <StyledLi><a><h3>Contact</h3></a></StyledLi>                        
+            <StyledLi>
+                <Link to="home" smooth={true} offset={0} duration={800}>
+                    <a><h3>Home</h3></a>     
+                </Link>
+            </StyledLi> 
+            <StyledLi> 
+                <Link to="about" smooth={true} offset={-80} duration={800}>
+                    <a><h3>About</h3></a>   
+                </Link>
+            </StyledLi> 
+            <StyledLi> 
+                <Link to="projects" smooth={true} offset={-20} duration={800}>
+                    <a><h3>Project</h3></a>   
+                </Link>   
+            </StyledLi> 
+            <StyledLi>                
+                <Link to="skills" smooth={true} offset={0} duration={800}>
+                    <a><h3>Skills</h3></a>
+                </Link> 
+            </StyledLi> 
+            <StyledLi>
+                <Link to="contact" smooth={true} offset={0} duration={800}>
+                    <a><h3>Contact</h3></a> 
+                </Link>    
+            </StyledLi>                                        
         </StyledUl>     
     )
 }

@@ -9,7 +9,7 @@ const StyledButton = styled.div`
     border-radius: 10px;
     padding: 10px 0px;
     width: 100px;
-    font-size: 20px;
+    font-size: 1rem;
     font-weight: bold;
     transition: 0.2s ease-in-out;
     

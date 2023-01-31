@@ -45,14 +45,14 @@ const StyledImg = styled.div`
 `
 
 const StyledText = styled.div`
-    padding: 50px 50px 50px 0;
+    padding: 3rem 3rem 3rem 0;
     width: 50%;
 
     h3{
-        min-width: 500px;
-        max-width: 700px;      
+        min-width: 30rem;
+        max-width: 43rem;      
         color:  ${props => props.theme.primary};
-        padding: 30px;
+        padding: 2rem;
         text-align: justify;
         border-top: solid 2px #00d8c6;
         border-right: solid 5px #00d8c6;

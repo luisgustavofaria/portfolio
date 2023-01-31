@@ -91,7 +91,7 @@ function Projects() {
             <Title><H1>Projects</H1></Title>
             <Container>
                 <Card>
-                    <a href="https://challenge-do-bem-react-js.vercel.app/" target="_blank"><IconImages imageName="climadev" type="png" /></a>
+                    <a href="https://climadev-luisgustavofaria.vercel.app/" target="_blank"><IconImages imageName="climadev" type="png" /></a>
                 </Card>
                 <Card>
                     <H3>ClimaDev</H3>
@@ -100,20 +100,20 @@ function Projects() {
             </Container>
             <Container>
                 <Card>
-                    <a href="https://challenge-do-bem-react-js.vercel.app/" target="_blank"><IconImages imageName="climadev" type="png" /></a>
+                    <a href="https://social-dev-black.vercel.app/login" target="_blank"><IconImages imageName="socialdev" type="png" /></a>
                 </Card>
                 <Card>
-                    <H3>ClimaDev</H3>
-                    <H6>WebSite de previsão do tempo. Desenvolvido utilizando ReactJS, NodeJS e Next JS, além de Styled Components. Foi consumido uma API do OpenWeather para o desenvolvimento, sendo possível obter informações do momento, daqui 3 horas e 6 horas. </H6>
+                    <H3>SocialDev</H3>
+                    <H6>Este projeto é uma rede social para desenvolvedores. Aqui é possível cadastrar um usuário, acessar a sua HomePage, deixar uma espécie de TWEET e até mesmo editar esse TWEET ou apaga-lo.</H6>
                 </Card>
             </Container>
             <Container>
                 <Card>
-                    <a href="https://challenge-do-bem-react-js.vercel.app/" target="_blank"><IconImages imageName="climadev" type="png" /></a>
+                    <a href="https://react-jogo-da-velha-ten.vercel.app/" target="_blank"><IconImages imageName="jogodavelha" type="png" /></a>
                 </Card>
                 <Card>
-                    <H3>ClimaDev</H3>
-                    <H6>WebSite de previsão do tempo. Desenvolvido utilizando ReactJS, NodeJS e Next JS, além de Styled Components. Foi consumido uma API do OpenWeather para o desenvolvimento, sendo possível obter informações do momento, daqui 3 horas e 6 horas. </H6>
+                    <H3>Jogo da Velha</H3>
+                    <H6>Primeiro projeto com fundamentos do React como componentes, propriedades e estado</H6>
                 </Card>
             </Container>
             

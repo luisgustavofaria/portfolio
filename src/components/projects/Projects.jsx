@@ -109,6 +109,15 @@ function Projects() {
             </Container>
             <Container>
                 <Card>
+                    <a href="https://controle-financeiro-virid.vercel.app/" target="_blank"><IconImages imageName="controle-financeiro" type="png" /></a>
+                </Card>
+                <Card>
+                    <H3>Controle Financeiro</H3>
+                    <H6>Um projeto para seu controle financeiro, podemos cadastrar entrada e saída e fazer buscas. Principal objetivo foi o consumo de APIs onde mostrei como fazer requisição entre frontend e backend utilizando React</H6>
+                </Card>
+            </Container>
+            <Container>
+                <Card>
                     <a href="https://react-jogo-da-velha-ten.vercel.app/" target="_blank"><IconImages imageName="jogodavelha" type="png" /></a>
                 </Card>
                 <Card>
